@@ -1,4 +1,4 @@
-(defproject quiljs-sketch "0.1.0-SNAPSHOT"
+(defproject bargain-bin "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
@@ -18,7 +18,7 @@
              :source-paths ["src"]
              :figwheel true
              :compiler
-             {:main "quiljs_sketch.core"
+             {:main "bargain-bin.core"
               :output-to "resources/public/js/main.js"
               :output-dir "resources/public/js/development"
               :asset-path "js/development"}}
@@ -26,7 +26,7 @@
             {:id "optimized"
              :source-paths ["src"]
              :compiler
-             {:main "quiljs_sketch.core"
+             {:main "bargain-bin.core"
               :output-to "resources/public/js/main.js"
               :output-dir "resources/public/js/optimized"
               :asset-path "js/optimized"

@@ -1,4 +1,4 @@
-(ns quiljs-sketch.core
+(ns bargain-bin.core
   (:require [quil.core :as q :include-macros true]
             [quil.middleware :as m]
             [cljs.pprint :as cljspp]))
@@ -101,8 +101,8 @@
 
 ; this function is called in index.html
 (defn ^:export run-sketch []
-  (q/defsketch quiljs-sketch
-    :host "quiljs-sketch"
+  (q/defsketch bargain-bin
+    :host "bargain-bin"
     :size [600 800]
     :setup setup
     :update update-state
